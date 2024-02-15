@@ -1,0 +1,57 @@
+* {
+  color: white;
+  background-image: url(https://cdn.wallpapersafari.com/82/81/Ybq70w.jpg);
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 3px 4px 10px black;
+  text-align: center;
+  background: rgb(11, 11, 54);
+  width: 650px;
+}
+label {
+  font-size: 18px;
+  color: white;
+}
+button {
+  color: rgb(220, 240, 192);
+  font-weight: 600;
+  width: 80px;
+  border-radius: 10px;
+  margin: 5px;
+  background: rgb(1, 42, 93);
+  box-shadow: 7px 3px 20px black;
+  cursor: pointer;
+  position: relative;
+  left: 10px;
+}
+p {
+  font-size: 22px;
+}
+input {
+  font-size: 22px;
+  color: rgb(245, 245, 245);
+}
+button:hover {
+  background: rgb(20, 5, 135);
+}
+h1 {
+  color: rgb(7, 227, 201);
+}
+label {
+  color: rgb(3, 221, 10);
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
